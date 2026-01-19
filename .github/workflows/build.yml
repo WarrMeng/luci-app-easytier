@@ -54,9 +54,9 @@ jobs:
           #- x86_64
           
         sdk:
-          #- 22.03.7
-          - SNAPSHOT
-          - 23.05
+          - 22.03.7
+          #- SNAPSHOT
+        
 
     steps:
       - uses: actions/checkout@v5
